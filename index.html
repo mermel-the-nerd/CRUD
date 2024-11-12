@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="head">LEGO catalog!</h1>
+    <form action="" id="entry">
+        <h2 id="head">Enter a new set:</h2>
+        <label for="name">Name: <input type="text" id="name" ></label>
+        
+        <label for="age">Age rating: <input type="text" id="age" ></label>
+        
+        <label for="pieces">Number of pieces: <input type="number" id="pieces" ></label>
+        
+        <label for="description">Description: <input type="text" id="description" ></label>
+
+<!-- see if you can do an image thing here -->
+
+        <label for="owned">Owned<input type="checkbox" id="owned" ></label>
+        
+        <label id="fin" for="finished">Finished<input type="checkbox" id="finished" ></label>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <div class="catalogdiv">
+    <h2 class='mycat'>My catalog</h2>
+    <ul id="catalog">
+        <li>Your catalog is empty! Add some entries!</li>
+        
+    </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
